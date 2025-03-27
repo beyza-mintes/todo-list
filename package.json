@@ -1,11 +1,11 @@
 {
-  "name": "vite-templete",
+  "name": "todo-list",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vite-templete/",
+    "build": "vite build --base=/todo-list/",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
@@ -16,5 +16,8 @@
     "vite": "^6.2.0"
   },
   "author": "Beyza Mintes <beyzanur.mnts@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "izitoast": "^1.4.0"
+  }
 }
